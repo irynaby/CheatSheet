@@ -1,4 +1,4 @@
-#Intellij IDEA && WebStorm - Cheat Sheet (Краткая шпаргалка)
+# Intellij IDEA && WebStorm - Cheat Sheet (Краткая шпаргалка)
 
 ## Часто используемые комбинации
 ### Редактирование
@@ -78,7 +78,44 @@
 `Ctrl + Shift + K` Сделать пуш.
 
 ---
+## Полезности
+### Postfix Completion
+Например в JavaScript можно написать имя переменной, поставить точку и написать if. После нажатия на Enter эта запись преобразуется в:
+```javascript
+if (variable) {
 
+}
+```
+и курсор поместится в тело условия.
+
+А, например, variable.log преобразуется в console.log(variable).
+
+Полный список можно посмотреть в настройках **Editor > General > Postfix Completion**.
+
+### Live Templates
+Шаблоны. Пишем itar, нажимаем Enter, получаем:
+```javascript
+for (var i = 0; i < list.length; i++) {
+    var obj = list[i];
+
+}
+```
+Остается только изменить названия переменных.
+
+Посмотреть на существующие шаблоны можно в настройках **Editor > Live Templates**. Там же можно создавать свои.
+
+### Emmet
+пишем ul#nav>li.item$*4>a{Item $} нажать **Tab** и получить:
+```html
+<ul id="nav">
+    <li class="item1"><a href="">Item 1</a></li>
+    <li class="item2"><a href="">Item 2</a></li>
+    <li class="item3"><a href="">Item 3</a></li>
+    <li class="item4"><a href="">Item 4</a></li>
+</ul>
+```
+
+---
 ## Остальные комбинации клавиш
 ### Поиск и замена
 ``` bash
