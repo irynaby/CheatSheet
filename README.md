@@ -1,2 +1,2 @@
-# CheatSheet
+# CheatSheets
 шпаргалки
