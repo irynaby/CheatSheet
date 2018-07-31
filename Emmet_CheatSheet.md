@@ -79,6 +79,7 @@ ul>li*5
 ```
 
 ## Item numbering: $
+
 ul>li.item$*5
 ```html
 <ul>
@@ -91,6 +92,7 @@ ul>li.item$*5
 ```
 
 h$[title=item$]{Header $}*3
+```html
 <h1 title="item1">Header 1</h1>
 <h2 title="item2">Header 2</h2>
 <h3 title="item3">Header 3</h3>
