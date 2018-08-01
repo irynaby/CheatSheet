@@ -204,3 +204,310 @@ table>.row>.col
 ```
 
 # HTML
+All unknown abbreviations will be transformed to tag, e.g. foo → <foo></foo>.
+
+!
+## Alias of html:5
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+a
+```html
+<a href=""></a>
+```
+a:link
+```html
+<a href="http://"></a>
+```
+a:mail
+```html
+<a href="mailto:"></a>
+```
+abbr
+```html
+<abbr title=""></abbr>
+```
+acronym, acr
+```html
+<acronym title=""></acronym>
+```
+base
+```html
+<base href="" />
+```
+basefont
+```html
+<basefont />
+```
+br
+```html
+<br />
+```
+frame
+```html
+```html
+<frame />
+```
+
+hr
+```html
+<hr />
+```
+
+bdo
+```html
+<bdo dir=""></bdo>
+```
+
+bdo:r
+```html
+<bdo dir="rtl"></bdo>
+```
+
+bdo:l
+```html
+<bdo dir="ltr"></bdo>
+col
+```html
+<col />
+```
+link
+```html
+<link rel="stylesheet" href="" />
+```
+link:css
+```html
+<link rel="stylesheet" href="style.css" />
+```
+link:print
+```html
+<link rel="stylesheet" href="print.css" media="print" />
+```
+link:favicon
+```html
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+```
+link:touch
+```html
+<link rel="apple-touch-icon" href="favicon.png" />
+```
+link:rss
+```html
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml" />
+```
+link:atom
+```html
+<link rel="alternate" type="application/atom+xml" title="Atom" href="atom.xml" />
+```
+link:import, link:im
+```html
+<link rel="import" href="component.html" />
+```
+meta
+```html
+<meta />
+```
+meta:utf
+```html
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+```
+meta:win
+```html
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1251" />
+```
+meta:vp
+```html
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+```
+meta:compat
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+```
+style
+```html
+<style></style>
+```
+script
+```html
+<script></script>
+```
+script:src
+```html
+<script src=""></script>
+```
+img
+```html
+<img src="" alt="" />
+```
+img:srcset, img:s
+```html
+<img srcset="" src="" alt="" />
+```
+img:sizes, img:z
+```html
+<img sizes="" srcset="" src="" alt="" />
+```
+picture
+```html
+<picture></picture>
+```
+source, src
+```html
+<source />
+```
+source:src, src:sc
+```html
+<source src="" type="" />
+```
+source:srcset, src:s
+```html
+<source srcset="" />
+```
+source:media, src:m
+```html
+<source media="(min-width: )" srcset="" />
+```
+source:type, src:t
+```html
+<source srcset="" type="image/" />
+```
+source:sizes, src:z
+```html
+<source sizes="" srcset="" />
+```
+source:media:type, src:mt
+```html
+<source media="(min-width: )" srcset="" type="image/" />
+```
+source:media:sizes, src:mz
+```html
+<source media="(min-width: )" sizes="" srcset="" />
+```
+source:sizes:type, src:zt
+```html
+<source sizes="" srcset="" type="image/" />
+```
+iframe
+```html
+<iframe src="" frameborder="0"></iframe>
+```
+embed
+```html
+<embed src="" type="" />
+```
+object
+```html
+<object data="" type=""></object>
+```
+param
+```html
+<param name="" value="" />
+```
+map
+```html
+<map name=""></map>
+```
+area
+```html
+<area shape="" coords="" href="" alt="" />
+```
+area:d
+```html
+<area shape="default" href="" alt="" />
+```
+area:c
+```html
+<area shape="circle" coords="" href="" alt="" />
+```
+area:r
+```html
+<area shape="rect" coords="" href="" alt="" />
+```
+area:p
+```html
+<area shape="poly" coords="" href="" alt="" />
+```
+form
+```html
+<form action=""></form>
+```
+form:get
+```html
+<form action="" method="get"></form>
+```
+form:post
+```html
+<form action="" method="post"></form>
+```
+label
+```html
+<label for=""></label>
+```
+input
+```html
+<input type="text" />
+```
+inp
+```html
+<input type="text" name="" id="" />
+```
+input:hidden, input:h
+## Alias of input[type=hidden name]
+```html
+<input type="hidden" name="" />
+```
+input:text, input:t
+## Alias of inp
+```html
+<input type="text" name="" id="" />
+```
+input:search
+## Alias of inp[type=search]
+```html
+<input type="search" name="" id="" />
+```
+input:email
+## Alias of inp[type=email]
+```html
+<input type="email" name="" id="" />
+```
+input:url
+Alias of inp[type=url]
+```html
+<input type="url" name="" id="" />
+```
+input:password, input:p
+## Alias of inp[type=password]
+```html
+<input type="password" name="" id="" />
+```
+input:datetime
+Alias of inp[type=datetime]
+```html
+<input type="datetime" name="" id="" />
+```
+input:date
+## Alias of inp[type=date]
+```html
+<input type="date" name="" id="" />
+```
+input:datetime-local
+## Alias of inp[type=datetime-local]
+```html
+<input type="datetime-local" name="" id="" />
+```
+input:month
+```
+## Alias of inp[type=month]
+```html
+<input type="month" name="" id="" />
+```
