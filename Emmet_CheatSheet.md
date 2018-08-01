@@ -206,8 +206,8 @@ table>.row>.col
 # HTML
 All unknown abbreviations will be transformed to tag, e.g. foo → <foo></foo>.
 
-!
-## Alias of html:5
+#### !
+Alias of html:5
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -220,294 +220,572 @@ All unknown abbreviations will be transformed to tag, e.g. foo → <foo></foo>.
 </body>
 </html>
 ```
-a
+#### a
 ```html
 <a href=""></a>
 ```
-a:link
+#### a:link
 ```html
 <a href="http://"></a>
 ```
-a:mail
+#### a:mail
 ```html
 <a href="mailto:"></a>
 ```
-abbr
+#### abbr
 ```html
 <abbr title=""></abbr>
 ```
-acronym, acr
+#### acronym, acr
 ```html
 <acronym title=""></acronym>
 ```
-base
+#### base
 ```html
 <base href="" />
 ```
-basefont
+#### basefont
 ```html
 <basefont />
 ```
-br
+#### br
 ```html
 <br />
 ```
-frame
+#### frame
 ```html
 ```html
 <frame />
 ```
 
-hr
+#### hr
 ```html
 <hr />
 ```
 
-bdo
+#### bdo
 ```html
 <bdo dir=""></bdo>
 ```
 
-bdo:r
+#### bdo:r
 ```html
 <bdo dir="rtl"></bdo>
 ```
 
-bdo:l
+#### bdo:l
 ```html
 <bdo dir="ltr"></bdo>
-col
+#### col
 ```html
 <col />
 ```
-link
+#### link
 ```html
 <link rel="stylesheet" href="" />
 ```
-link:css
+#### link:css
 ```html
 <link rel="stylesheet" href="style.css" />
 ```
-link:print
+#### link:print
 ```html
 <link rel="stylesheet" href="print.css" media="print" />
 ```
-link:favicon
+#### link:favicon
 ```html
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 ```
-link:touch
+#### link:touch
 ```html
 <link rel="apple-touch-icon" href="favicon.png" />
 ```
-link:rss
+#### link:rss
 ```html
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml" />
 ```
-link:atom
+#### link:atom
 ```html
 <link rel="alternate" type="application/atom+xml" title="Atom" href="atom.xml" />
 ```
-link:import, link:im
+#### link:import, link:im
 ```html
 <link rel="import" href="component.html" />
 ```
-meta
+#### meta
 ```html
 <meta />
 ```
-meta:utf
+#### meta:utf
 ```html
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 ```
-meta:win
+#### meta:win
 ```html
 <meta http-equiv="Content-Type" content="text/html;charset=windows-1251" />
 ```
-meta:vp
+#### meta:vp
 ```html
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 ```
-meta:compat
+#### meta:compat
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
 ```
-style
+#### style
 ```html
 <style></style>
 ```
-script
+#### script
 ```html
 <script></script>
 ```
-script:src
+#### script:src
 ```html
 <script src=""></script>
 ```
-img
+#### img
 ```html
 <img src="" alt="" />
 ```
-img:srcset, img:s
+#### img:srcset, img:s
 ```html
 <img srcset="" src="" alt="" />
 ```
-img:sizes, img:z
+#### img:sizes, img:z
 ```html
 <img sizes="" srcset="" src="" alt="" />
 ```
-picture
+#### picture
 ```html
 <picture></picture>
 ```
-source, src
+#### source, src
 ```html
 <source />
 ```
-source:src, src:sc
+#### source:src, src:sc
 ```html
 <source src="" type="" />
 ```
-source:srcset, src:s
+#### source:srcset, src:s
 ```html
 <source srcset="" />
 ```
-source:media, src:m
+#### source:media, src:m
 ```html
 <source media="(min-width: )" srcset="" />
 ```
-source:type, src:t
+#### source:type, src:t
 ```html
 <source srcset="" type="image/" />
 ```
-source:sizes, src:z
+#### source:sizes, src:z
 ```html
 <source sizes="" srcset="" />
 ```
-source:media:type, src:mt
+#### source:media:type, src:mt
 ```html
 <source media="(min-width: )" srcset="" type="image/" />
 ```
-source:media:sizes, src:mz
+#### source:media:sizes, src:mz
 ```html
 <source media="(min-width: )" sizes="" srcset="" />
 ```
-source:sizes:type, src:zt
+#### source:sizes:type, src:zt
 ```html
 <source sizes="" srcset="" type="image/" />
 ```
-iframe
+#### iframe
 ```html
 <iframe src="" frameborder="0"></iframe>
 ```
-embed
+#### embed
 ```html
 <embed src="" type="" />
 ```
-object
+#### object
 ```html
 <object data="" type=""></object>
 ```
-param
+#### param
 ```html
 <param name="" value="" />
 ```
-map
+#### map
 ```html
 <map name=""></map>
 ```
-area
+#### area
 ```html
 <area shape="" coords="" href="" alt="" />
 ```
-area:d
+#### area:d
 ```html
 <area shape="default" href="" alt="" />
 ```
-area:c
+#### area:c
 ```html
 <area shape="circle" coords="" href="" alt="" />
 ```
-area:r
+#### area:r
 ```html
 <area shape="rect" coords="" href="" alt="" />
 ```
-area:p
+#### area:p
 ```html
 <area shape="poly" coords="" href="" alt="" />
 ```
-form
+#### form
 ```html
 <form action=""></form>
 ```
-form:get
+#### form:get
 ```html
 <form action="" method="get"></form>
 ```
-form:post
+#### form:post
 ```html
 <form action="" method="post"></form>
 ```
-label
+#### label
 ```html
 <label for=""></label>
 ```
-input
+#### input
 ```html
 <input type="text" />
 ```
-inp
+#### inp
 ```html
 <input type="text" name="" id="" />
 ```
-input:hidden, input:h
-## Alias of input[type=hidden name]
+#### input:hidden, input:h
+Alias of input[type=hidden name]
 ```html
 <input type="hidden" name="" />
 ```
-input:text, input:t
-## Alias of inp
+#### input:text, input:t
+Alias of inp
 ```html
 <input type="text" name="" id="" />
 ```
-input:search
-## Alias of inp[type=search]
+#### input:search
+Alias of inp[type=search]
 ```html
 <input type="search" name="" id="" />
 ```
-input:email
-## Alias of inp[type=email]
+#### input:email
+Alias of inp[type=email]
 ```html
 <input type="email" name="" id="" />
 ```
-input:url
+#### input:url
 Alias of inp[type=url]
 ```html
 <input type="url" name="" id="" />
 ```
-input:password, input:p
-## Alias of inp[type=password]
+#### input:password, input:p
+Alias of inp[type=password]
 ```html
 <input type="password" name="" id="" />
 ```
-input:datetime
+#### input:datetime
 Alias of inp[type=datetime]
 ```html
 <input type="datetime" name="" id="" />
 ```
-input:date
-## Alias of inp[type=date]
+#### input:date
+Alias of inp[type=date]
 ```html
 <input type="date" name="" id="" />
 ```
-input:datetime-local
-## Alias of inp[type=datetime-local]
+#### input:datetime-local
+Alias of inp[type=datetime-local]
 ```html
 <input type="datetime-local" name="" id="" />
 ```
-input:month
-```
-## Alias of inp[type=month]
+#### input:month
+Alias of inp[type=month]
 ```html
 <input type="month" name="" id="" />
 ```
+
+#### input:week
+Alias of inp[type=week]
+```html
+<input type="week" name="" id="" />
+```
+#### input:time
+Alias of inp[type=time]
+```html
+<input type="time" name="" id="" />
+```
+#### input:tel
+Alias of inp[type=tel]
+```html
+<input type="tel" name="" id="" />
+```
+#### input:number
+Alias of inp[type=number]
+```html
+<input type="number" name="" id="" />
+```
+#### input:color
+Alias of inp[type=color]
+```html
+<input type="color" name="" id="" />
+```
+#### input:checkbox, input:c
+Alias of inp[type=checkbox]
+```html
+<input type="checkbox" name="" id="" />
+```
+#### input:radio, input:r
+Alias of inp[type=radio]
+```html
+<input type="radio" name="" id="" />
+```
+#### input:range
+Alias of inp[type=range]
+```html
+<input type="range" name="" id="" />
+```
+#### input:file, input:f
+Alias of inp[type=file]
+```html
+<input type="file" name="" id="" />
+```
+#### input:submit, input:s
+```html
+<input type="submit" value="" />
+```
+#### input:image, input:i
+```html
+<input type="image" src="" alt="" />
+```
+#### input:button, input:b
+```html
+<input type="button" value="" />
+```
+#### isindex
+```html
+<isindex />
+#### input:reset
+Alias of input:button[type=reset]
+```html
+<input type="reset" value="" />
+```
+#### select
+```html
+<select name="" id=""></select>
+```
+#### select:disabled, select:d
+Alias of select[disabled.]
+```html
+<select name="" id="" disabled="disabled"></select>
+```
+#### option, opt
+```html
+<option value=""></option>
+```
+#### textarea
+```html
+<textarea name="" id="" cols="30" rows="10"></textarea>
+```
+#### marquee
+```html
+<marquee behavior="" direction=""></marquee>
+```
+#### menu:context, menu:c
+Alias of menu[type=context]>
+```html
+<menu type="context"></menu>
+```
+#### menu:toolbar, menu:t
+Alias of menu[type=toolbar]>
+```html
+<menu type="toolbar"></menu>
+```
+#### video
+```html
+<video src=""></video>
+```
+#### audio
+```html
+<audio src=""></audio>
+```
+#### html:xml
+```html
+<html xmlns="http://www.w3.org/1999/xhtml"></html>
+```
+#### keygen
+<keygen />
+#### command
+```html
+<command />
+```
+#### button:submit, button:s, btn:s
+Alias of button[type=submit]
+```html
+<button type="submit"></button>
+```
+#### button:reset, button:r, btn:r
+Alias of button[type=reset]
+```html
+<button type="reset"></button>
+```
+#### button:disabled, button:d, btn:d
+Alias of button[disabled.]
+```html
+<button disabled="disabled"></button>
+```
+#### fieldset:disabled, fieldset:d, fset:d, fst:d
+Alias of fieldset[disabled.]
+```html
+<fieldset disabled="disabled"></fieldset>
+```
+#### bq
+Alias of blockquote
+```html
+<blockquote></blockquote>
+```
+#### fig
+Alias of figure
+```html
+<figure></figure>
+```
+#### figc
+Alias of figcaption
+```html
+<figcaption></figcaption>
+```
+#### pic
+Alias of picture
+```html
+<picture></picture>
+```
+#### ifr
+Alias of iframe
+```html
+<iframe src="" frameborder="0"></iframe>
+```
+#### emb
+Alias of embed
+```html
+<embed src="" type="" />
+```
+#### obj
+Alias of object
+```html
+<object data="" type=""></object>
+```
+#### cap
+Alias of caption
+```html
+<caption></caption>
+```
+#### colg
+Alias of colgroup
+```html
+<colgroup></colgroup>
+```
+#### fst, fset
+Alias of fieldset
+```html
+<fieldset></fieldset>
+```
+#### btn
+Alias of button
+```html
+<button></button>
+```
+#### optg
+Alias of optgroup
+```html
+<optgroup></optgroup>
+```
+#### tarea
+Alias of textarea
+```html
+<textarea name="" id="" cols="30" rows="10"></textarea>
+```
+#### leg
+Alias of legend
+```html
+<legend></legend>
+```
+#### sect
+Alias of section
+```html
+<section></section>
+```
+#### art
+Alias of article
+```html
+<article></article>
+```
+#### hdr
+Alias of header
+```html
+<header></header>
+```
+#### ftr
+Alias of footer
+```html
+<footer></footer>
+```
+#### adr
+Alias of address
+```html
+<address></address>
+```
+#### dlg
+Alias of dialog
+```html
+<dialog></dialog>
+```
+#### str
+Alias of strong
+```html
+<strong></strong>
+```
+#### prog
+Alias of progress
+```html
+<progress></progress>
+```
+#### mn
+Alias of main
+```html
+<main></main>
+```
+#### tem
+Alias of template
+```html
+<template></template>
+```
+#### datag
+Alias of datagrid
+```html
+<datagrid></datagrid>
+```
+#### datal
+Alias of datalist
+```html
+<datalist></datalist>
+```
+#### kg
+Alias of keygen
+```html
+<keygen />
+```
+#### out
+```html
+<output></output>
+```
+#### det
+```html
+<details></details>
+```
+
