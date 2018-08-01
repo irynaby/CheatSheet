@@ -1277,6 +1277,44 @@ You can prefix abbreviations with hyphen to produce vendor-prefixed properties: 
 
 ## Box Sizing
 
+**bxz** box-sizing:border-box;
+
+**bxz:cb** box-sizing:content-box;
+
+**bxz:bb** box-sizing:border-box;
+
+**bxsh** box-shadow:inset hoff voff blur color;
+
+**bxsh:r** box-shadow:inset hoff voff blur spread rgb(0, 0, 0);
+
+**bxsh:ra** box-shadow:inset h v blur spread rgba(0, 0, 0, .5);
+
+**bxsh:n** box-shadow:none;
+
+**w** width:;
+
+**w:a** width:auto;
+
+**h** height:;
+
+**h:a** height:auto;
+
+**maw** max-width:;
+
+**maw:n** max-width:none;
+
+**mah** max-height:;
+
+**mah:n** max-height:none;
+
+**miw** min-width:;
+
+**mih** min-height:;
+
+## Font
+**f** font:;
+
+
 ## Background
 
 ## Others
