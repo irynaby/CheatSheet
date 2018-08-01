@@ -790,4 +790,265 @@ Alias of keygen
 ```html
 <details></details>
 ```
+#### cmd
+Alias of command
+```html
+<command />
+```
+#### doc
+Alias of html>(head>meta[charset=${charset}]+title{${1:Document}})+body
+```html
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+#### doc4
+Alias of html>(head>meta[http-equiv="Content-Type" content="text/html;charset=${charset}"]+title{${1:Document}})+body
+```html
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+#### ri:dpr, ri:d
+Alias of img:s
+```html
+<img srcset="" src="" alt="" />
+```
+#### ri:viewport, ri:v
+Alias of img:z
+```html
+<img sizes="" srcset="" src="" alt="" />
+```
+#### ri:art, ri:a
+Alias of pic>src:m+img
+```html
+<picture>
+    <source media="(min-width: )" srcset="" />
+    <img src="" alt="" />
+</picture>
+```
+#### ri:type, ri:t
+Alias of pic>src:t+img
+```html
+<picture>
+    <source srcset="" type="image/" />
+    <img src="" alt="" />
+</picture>
+```
+#### html:4t
+Alias of !!!4t+doc4[lang=${lang}]
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+#### html:4s
+Alias of !!!4s+doc4[lang=${lang}]
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+#### html:xt
+Alias of !!!xt+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+#### html:xs
+Alias of !!!xs+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+#### html:xxs
+Alias of !!!xxs+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+#### html:5
+Alias of !!!+doc[lang=${lang}]
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+#### ol+
+Alias of ol>li
+```html
+<ol>
+    <li></li>
+</ol>
+```
+#### ul+
+Alias of ul>li
+```html
+<ul>
+    <li></li>
+</ul>
+```
+#### dl+
+Alias of dl>dt+dd
+```html
+<dl>
+    <dt></dt>
+    <dd></dd>
+</dl>
+```
+#### map+
+Alias of map>area
+```html
+<map name="">
+    <area shape="" coords="" href="" alt="" />
+</map>
+```
+#### table+
+Alias of table>tr>td
+```html
+<table>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+```
+#### colgroup+, colg+
+Alias of colgroup>col
+```html
+<colgroup>
+    <col />
+</colgroup>
+```
+#### tr+
+Alias of tr>td
+```html
+<tr>
+    <td></td>
+</tr>
+```
+#### select+
+Alias of select>option
+```html
+<select name="" id="">
+    <option value=""></option>
+</select>
+```
+#### optgroup+, optg+
+Alias of optgroup>option
+```html
+<optgroup>
+    <option value=""></option>
+</optgroup>
+```
+#### pic+
+Alias of picture>source:srcset+img
+```html
+<picture>
+    <source srcset="" />
+    <img src="" alt="" />
+</picture>
+```
+#### !!!
+```html
+<!DOCTYPE html>
+```
+#### !!!4t
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
+#### !!!4s
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
+#### !!!xt
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+```
+#### !!!xs
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+```
+#### !!!xxs
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+```
+#### c
+```html
+<!-- ${child} -->
+```
+#### cc:ie6
+```html
+<!--[if lte IE 6]>
+    ${child}
+<![endif]-->
+```
+#### cc:ie
+```html
+<!--[if IE]>
+    ${child}
+<![endif]-->
+```
+#### cc:noie
+```html
+<!--[if !IE]><!-->
+    ${child}
+<!--<![endif]-->
+```
 
