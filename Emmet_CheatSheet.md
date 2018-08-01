@@ -1054,21 +1054,34 @@ Alias of picture>source:srcset+img
 
 # CSS
 CSS module uses fuzzy search to find unknown abbreviations, e.g. **ov:h == ov-h == ovh == oh**.
+
 If abbreviation wasn’t found, it is transformed into property name: **foo-bar → foo-bar: |**;
+
 You can prefix abbreviations with hyphen to produce vendor-prefixed properties: **-foo**
 
 ## Visual Formatting
 **pos**   position:relative;
+
 **pos:s** position:static;
+
 **pos:a** position:absolute;
+
 **pos:r** position:relative;
+
 **pos:f** position:fixed;
+
 **t** top:;
+
 **t:a** top:auto;
+
 **r** right:;
+
 **r:a** right:auto;
+
 **b** bottom:;
+
 **b:a** bottom:auto;
+
 **l** left:;
 **l:a** left:auto;
 **z** z-index:;
