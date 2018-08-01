@@ -1245,6 +1245,37 @@ You can prefix abbreviations with hyphen to produce vendor-prefixed properties: 
 **cur:t** cursor:text;
 
 ## Margin & Padding
+**m** margin:;
+
+**m:a** margin:auto;
+
+**mt** margin-top:;
+
+**mt:a** margin-top:auto;
+
+**mr** margin-right:;
+
+**mr:a** margin-right:auto;
+
+**mb** margin-bottom:;
+
+**mb:a** margin-bottom:auto;
+
+**ml** margin-left:;
+
+**ml:a** margin-left:auto;
+
+**p** padding:;
+
+**pt** padding-top:;
+
+**pr** padding-right:;
+
+**pb** padding-bottom:;
+
+**pl** padding-left:;
+
+## Box Sizing
 
 ## Background
 
