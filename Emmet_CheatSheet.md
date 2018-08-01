@@ -620,7 +620,9 @@ Alias of menu[type=toolbar]>
 <html xmlns="http://www.w3.org/1999/xhtml"></html>
 ```
 #### keygen
+```html
 <keygen />
+```
 #### command
 ```html
 <command />
